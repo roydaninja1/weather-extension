@@ -1,0 +1,145 @@
+html {
+    font-family: 'Nunito'
+}
+
+body {
+    height: 550px;
+    width: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.popout {
+    background-color: #3898FF;
+    color: white;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.time {
+    align-self: start;
+}
+
+#condition {
+    grid-area: 2 / 1 / 6 / 3;
+    text-align: center;
+    font-size: 1.2rem
+}
+
+
+#localtime {
+    grid-area: 1 / 3 / 1 / 5;
+    font-size: 1.5rem;
+    align-self: end;
+    text-align: center;
+    font-size: 2rem
+}
+
+#temperature {
+    grid-area: 2 / 3 / 2 / 5;
+    align-self: end;
+    font-size: 1.2rem
+}
+
+#humidity {
+    grid-area: 3 / 3 / 3 / 5;
+    align-self: end;
+    font-size: 1.2rem
+}
+
+#feels_like {
+    grid-area: 4 / 3 / 4 / 5;
+    align-self: end;
+    font-size: 1.2rem
+}
+
+#precip_mm {
+    grid-area: 2 / 5 / 2 / 7;
+    align-self: end;
+    font-size: 1.2rem
+}
+
+#uv {
+    grid-area: 3 / 5 / 3 / 7;
+    align-self: end;
+    font-size: 1.2rem
+}
+#wind_button {
+    grid-area: 5 / 1 / 5 / 3;
+    background-color: #7fbdff;
+    border-radius: 5px;
+    border-color: white;
+    margin: 10px;
+    color: grey;
+}
+
+#wind {
+    grid-area: 6 / 1 / 6 / 3;
+    text-align: center;
+}
+
+#air_button {
+    grid-area: 5 / 3 / 5 / 5;
+    background-color: #7fbdff;
+    border-radius: 5px;
+    border-color: white;
+    margin: 10px;
+    color: grey;
+}
+
+#air_quality {
+    grid-area: 6 / 3 / 6 / 5;
+    text-align: center;
+}
+
+#astro_button {
+    grid-area: 5 / 5 / 5 / 7;
+    background-color: #7fbdff;
+    border-radius: 5px;
+    border-color: white;
+    margin: 10px;
+    color: grey;
+}
+
+#astro {
+    grid-area: 6 / 5 / 6 / 7;
+    text-align: center
+}
+
+#time6 {
+    grid-row: 7;
+    grid-column: 1;
+}
+
+#time9 {
+    grid-row: 7;
+    grid-column: 2;
+}
+
+#time12 {
+    grid-row: 7;
+    grid-column: 3;
+}
+
+#time15 {
+    grid-row: 7;
+    grid-column: 4;
+}
+
+#time18 {
+    grid-row: 7;
+    grid-column: 5;
+}
+
+#time21 {
+    grid-row: 7;
+    grid-column: 6;
+}
+
+.time {
+    text-align: center
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Sydney Weather",
+    "version": "1.0.0",
+    "description": "The weather in Sydney",
+    "manifest_version": 3,
+    "author": "Roy",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Sydney Weather"
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Sydney Weather</title>
+</head>
+<body>
+    <div class="popout">
+        <div id="localtime"></div>
+        <div id="condition"></div>
+        <div id="temperature">Temperature: </div>
+        <div id="condition"></div>
+        <div id="precip_mm">Rain: </div>
+        <div id="humidity">Humidity: </div>
+        <div id="feels_like">Feels Like: </div>
+        <div id="uv">UV Index: </div>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#wind" id="wind_button">Wind Statistics</button>
+        <div id="wind" class="collapse">
+            <div id="wind_kph"></div>
+            <div id="gust_kph"></div>
+            <div id="wind_dir"></div>
+            <div id="pressure_mb"></div>
+        </div>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#air_quality" id="air_button">Air Quality</button>
+        <div id="air_quality" class="collapse">
+              <div id="co">Carbon Monoxide: </div>
+              <div id="no2">Nitrogen Dioxide: </div>
+              <div id="o3">Ozone: </div>
+              <div id="so2">Sulfur Dioxide: </div>
+              <div id="pm2_5">&lt; 2.5 μm: </div>
+              <div id="pm10">&lt; 10 μm:  </div>
+        </div>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#astro" id="astro_button">Sun & Moon</button>
+        <div id="astro" class="collapse">
+            <div id="sunrise">Sunrise: </div>
+            <div id="sunset">Sunset: </div>
+            <div id="moonrise">Moonrise: </div>
+            <div id="moonset">Moonset: </div>
+            <div id="moon_phase">Moon Phase: </div>
+        </div>
+        <div id="time6" class="time">6am<br></div>
+        <div id="time9" class="time">9am<br></div>
+        <div id="time12" class="time">12pm<br></div>
+        <div id="time15" class="time">3pm<br></div>
+        <div id="time18" class="time">6pm<br></div>
+        <div id="time21" class="time">9pm<br></div>
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
